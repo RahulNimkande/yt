@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="css/styles.css">
   <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Russo+One&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,7 +17,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="images/r.jpg" alt="" width="39" height="39">
+          <img class="sdp" src="images/r.jpg" alt="" width="39" height="39">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -22,7 +25,7 @@
         <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active heading" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Features</a>
@@ -34,7 +37,7 @@
             </li>
           </ul>
           <form class="d-flex">
-            <a href="https://www.youtube.com/channel/UCC2aiBrcvFHpb4Rve-eQFBg" class="btn btn-danger"> Subscribe</a>
+            <a href="https://www.youtube.com/channel/UCC2aiBrcvFHpb4Rve-eQFBg" class="btn btn-danger heading"> Subscribe</a>
           </form>
         </div>
       </div>
@@ -47,13 +50,13 @@
     <div class="channel" id="title">
       <img class="dp" src="images/r.jpg" alt="" width="120" height="120">
       <h1 class="ml11">
-        <span class="text-wrapper">
-          <span class="line line1"></span>
-          <span class="letters">Welcome to Rahul Nimkande Channel !</span>
-        </span>
+        <div id="container">
+        	<div id="text"></div><div id="cursor"></div>
+        </div>
       </h1>
       <p class="fw-lighter p1">
-        Need Projects to Work with or for college submissions then <a class="subs" href="https://www.youtube.com/channel/UCC2aiBrcvFHpb4Rve-eQFBg">Subscribe</a> our channel and get many projects with source code.
+        Need Projects to Work with or for college submissions then <a class="subs" href="https://www.youtube.com/channel/UCC2aiBrcvFHpb4Rve-eQFBg">Subscribe</a> our channel <br>
+        and get many projects with source code.
       </p>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     </div>
