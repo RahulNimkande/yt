@@ -16,14 +16,28 @@ h1 {
 
 .p1 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: 50px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-family: 'Russo One', sans-serif;
+}
+
+
+.sdp {
+  border: 1.5px solid;
+  border-color:	#FFD700;
 }
 
 .dp {
   display: block;
+  border: 2px solid;
+  border-color:	#FFD700;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -205,7 +219,7 @@ h1 {
   height: 100%;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow: hidden;
-  height: 600px;
+  height: 700px;
   width: 100%;
 }
 
@@ -291,4 +305,36 @@ h1 {
   to {
     transform: translateY(-2000px);
   }
+}
+
+
+
+#container {
+	text-align: center;
+}
+
+#text {
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+	letter-spacing: 2px;
+font-family: 'Fjalla One', sans-serif;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 60px;
+	background-color: white;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to {
+		background-color: transparent
+	}
+	50% {
+		background-color: white;
+	}
 }
