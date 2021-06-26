@@ -72,5 +72,21 @@ function Delete() {
 	}
 }
 
+$(function(){
+
+	$('#show').on('click',function(){
+			$('.card-reveal').slideToggle('slow');
+	});
+
+	$('.card-reveal .close').on('click',function(){
+			$('.card-reveal').slideToggle('slow');
+	});
+});
+
+AOS.init({
+duration: 1000,
+})
+
+
 // Start the typing effect on load
 _INTERVAL_VAL = setInterval(Type, 100);
